@@ -27,4 +27,9 @@
         <name>yarn.nodemanager.vmem-check-enabled</name>
         <value>false</value>
     </property> 
+    <property>
+        <name>yarn.scheduler.maximum-allocation-vcores</name>
+        <!-- for 8 cores -->
+        <value>8</value>
+    </property>
 </configuration>
