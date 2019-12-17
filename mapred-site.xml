@@ -49,5 +49,22 @@
       <name>mapreduce.reduce.java.opts</name>
       <value>3278</value>
     </property>
-
+    <property>
+        <name>mapreduce.tasktracker.map.tasks.maximum</name>
+        <!-- For 8 cores -->
+        <value>7</value>
+    </property>
+    <property>
+        <name>mapreduce.tasktracker.reduce.tasks.maximum</name>
+        <!-- For 8 cores -->
+        <value>7</value>
+    </property>
+    <property>
+        <name>mapreduce.map.cpu.vcores</name>
+        <value>3</value>
+    </property>
+     <property>
+        <name>mapreduce.reduce.cpu.vcores</name>
+        <value>3</value>
+    </property>
 </configuration>
